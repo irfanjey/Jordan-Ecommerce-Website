@@ -1,0 +1,45 @@
+.newsletter{
+    width: 81%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 140px;
+    gap: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+}
+.newsletter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 730px;
+    height: 68px;
+    border-radius: 80px;
+    border: 1px solid #e3e3e3;
+
+}
+.newsletter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.newsletter div button{
+    width: 210px;
+    height: 71px;
+    border-radius: 80px;
+    background-color: rgb(6, 184, 255);
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+    margin-right: -9px;
+}

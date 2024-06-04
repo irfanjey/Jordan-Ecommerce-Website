@@ -1,0 +1,52 @@
+.gender_category{
+    display: inline-block;
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.gender_category hr{
+    border: none;
+    border-radius: 10px;
+    background: black;
+    height: 3px;
+}
+.shopcategory-indexsort{
+    display: flex;
+    margin: 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopcategory-indexsort p{
+    margin-left: 20px;
+    color: black;
+}
+.shopcategory-indexsort p span{
+    font-weight: 600;
+}
+.shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    margin-right: 55px;
+}
+.shopcategory-products{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    margin-top: 35px;
+    margin-left: 170px;
+    row-gap: 60px;
+    margin-bottom: -140px;
+    column-gap: -150px;
+}
+@media(max-width: 1280px){
+    .shopcategory-products{
+        row-gap: 40px;
+        grid-template-columns: 280px 280px 280px;
+        margin-left: 160px;
+    }
+    .gender_category{
+        font-size: 32px;
+    }
+}
