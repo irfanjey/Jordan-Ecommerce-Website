@@ -17,3 +17,35 @@ Go to the project directory
 ```bash
   cd Jordan-Ecommerce-Website
 ```
+
+### Running Back-end Node Server
+Go to the back-end directory
+
+```bash
+  cd back-end
+```
+
+Run the server
+
+```bash
+  node ./index.js
+```
+### Running Front-end React Server
+Go to the Front End directory
+
+```bash
+  cd ../front-end
+```
+
+Install React Node Modules
+
+```bash
+  npm install
+```
+
+Run the React server
+
+```bash
+  npm start
+```
+
