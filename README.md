@@ -11,3 +11,9 @@ Clone the project
 ```bash
   git clone https://github.com/irfanjey/Jordan-Ecommerce-Website.git
 ```
+
+Go to the project directory
+
+```bash
+  cd Jordan-Ecommerce-Website
+```
