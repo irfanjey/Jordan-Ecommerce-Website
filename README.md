@@ -88,5 +88,5 @@ Visit the Admin Panel
 
 - React
 - Node.js
-- MongoDB Atlast
+- MongoDB Atlas
     
