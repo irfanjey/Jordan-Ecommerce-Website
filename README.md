@@ -84,5 +84,9 @@ Visit the Admin Panel
   http://localhost:5173
 ```
 
+## Tech Stack
 
+- React
+- Node.js
+- MongoDB Atlast
     
