@@ -51,7 +51,8 @@ Run the React server
 
 Visit the Jordan E-commerce website
 
-http://localhost:3000
-
+```bash
+  http://localhost:3000
+```
 
 
