@@ -49,7 +49,7 @@ Run the React server
   npm start
 ```
 
-Visit the Jordan E-commerce website
+###Visit the Jordan E-commerce website
 
 ```bash
   http://localhost:3000
