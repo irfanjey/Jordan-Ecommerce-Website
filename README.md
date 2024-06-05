@@ -19,6 +19,7 @@ Go to the project directory
 ```
 
 ### Running Back-end Node Server
+
 Go to the back-end directory
 
 ```bash
@@ -30,7 +31,9 @@ Run the server
 ```bash
   node ./index.js
 ```
+
 ### Running Front-end React Server
+
 Go to the Front End directory
 
 ```bash
@@ -49,10 +52,37 @@ Run the React server
   npm start
 ```
 
-### Visit the Jordan E-commerce website
+Visit the Jordan E-commerce website
 
 ```bash
   http://localhost:3000
 ```
 
+### Running the Admin Panel
 
+Go to the Admin Directory
+
+```bash
+  cd ../admin
+```
+
+Install React Node Modules
+
+```bash
+  npm install
+```
+
+Run the React Server for the Admin Panel
+
+```bash
+  npm run dev
+```
+
+Visit the Admin Panel
+
+```bash
+  http://localhost:5173
+```
+
+
+    
