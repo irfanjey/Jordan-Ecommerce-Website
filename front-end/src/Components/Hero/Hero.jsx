@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
           <p>YOUR GAME</p>
         </div>
-        <div className="hero-latest-btn">
+        <div onClick={(e)=>{window.scrollBy(0, 2475)}} className="hero-latest-btn">
           <div>Latest Collection</div>
           <img src={arrow_icon} alt="" />
         </div>

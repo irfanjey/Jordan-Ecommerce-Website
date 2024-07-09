@@ -133,7 +133,7 @@ app.post('/removeproduct',async (req,res)=>{
     await Product.findOneAndDelete({id:req.body.id});
     console.log("Removed");
     res.json({
-        Success:true,
+        success:true,
         name:req.body.name
     })
 });
@@ -257,7 +257,9 @@ app.post('/addtocart',fetchuser,async (req, res)=>{
     let userData = await Users.findOne({_id:req.user.id});
     userData.cartData[req.body.itemId] += 1;
     await Users.findOneAndUpdate({_id:req.user.id},{cartData:userData.cartData});
-    res.send("Added");
+    res.json({
+        success:true,
+    })
 })
 
 //Creating Endpoint to Remove Product from cartData

@@ -51,7 +51,9 @@ const ShopContextProvider = (props) => {
                 body: JSON.stringify({"itemId":itemId}),
             })
             .then((response)=>response.json())
-            .then((data)=>console.log(data));
+            .then((data)=>{
+                data.success?alert("Product Added to Cart"):alert("Failed")
+            });
         }
         document.querySelectorAll('.productdisplay-right-size-option').forEach(div => {
             div.classList.remove('active');
